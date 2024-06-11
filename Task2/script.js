@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         taskInput.value = '';
         dueDateInput.value = '';
-        prioritySelect.value = 'Low';
-        categorySelect.value = 'Work';
+        prioritySelect.value = '';
+        categorySelect.value = '';
 
         taskItem.querySelector('.complete').addEventListener('click', () => {
             taskItem.classList.toggle('complete');
